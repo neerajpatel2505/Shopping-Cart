@@ -1,0 +1,7 @@
+f=open('neeraj.text','r')
+print(f.tell())
+print(f.read(2))
+print(f.tell())
+print(f.seek(2))
+print(f.tell())
+print(f.read(2))
